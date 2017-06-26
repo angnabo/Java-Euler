@@ -7,7 +7,7 @@ import java.util.List;
  * @author Anzhelika Nabozhina
  * @version 23/06/17.
  */
-public class Problem10SummationOfPrimes extends SieveOfEratosthenes {
+public class Problem10SummationOfPrimes {
 
     /**
      * Returns the sum of prime numbers below a given number
