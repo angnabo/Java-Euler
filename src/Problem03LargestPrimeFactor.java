@@ -10,8 +10,6 @@ import java.util.List;
  */
 public class Problem03LargestPrimeFactor{
 
-    MathFunctions factors = new MathFunctions();
-
     /**
      * Returns the largest prime number from an array
      * @param integerArray ArrayList of longs
@@ -20,7 +18,7 @@ public class Problem03LargestPrimeFactor{
     public long getPrime(List<Long> integerArray) {
         long primeNumber = 0;
         for (int i = integerArray.size()-1; i > 0; i--){
-            List<Long> factorsAr = factors.getFactors(integerArray.get(i));
+            List<Long> factorsAr = MathFunctions.getFactors(integerArray.get(i));
             if (factorsAr.size() == 2){
                 primeNumber = factorsAr.get(1);
                 break;
@@ -35,7 +33,7 @@ public class Problem03LargestPrimeFactor{
      * @return largest prime factor of the number
      */
     public long getLargestPrimeFactor(long number){
-        return getPrime(factors.getFactors(number));
+        return getPrime(MathFunctions.getFactors(number));
     }
 
     public static void main(String[] args) {

@@ -1,17 +1,20 @@
 import java.util.Arrays;
 
 /**
- * Description
- * Answer: 906606
+ * If the numbers 1 to 5 are written out in words: one, two, three, four, five,
+ * then there are 3 + 3 + 5 + 4 + 4 = 19 letters used in total.
+ * If all the numbers from 1 to 1000 (one thousand) inclusive were written out in words,
+ * how many letters would be used?
+ * Answer: 21124
  *
  * @author Anzhelika Nabozhina
- * @version 23/06/17.
+ * @version 24/07/17.
  */
 public class Problem17NumberLetterCounts {
 
-    public long countAllNumbers() {
+    public long countAllNumbers(int number) {
         long count = 0;
-        for (int i = 1; i <= 1000; i++) {
+        for (int i = 1; i <= number; i++) {
             count += letterCounts(numberInWords(i+""));
         }
         return count;
@@ -187,6 +190,6 @@ public class Problem17NumberLetterCounts {
 
     public static void main(String[] args) {
         Problem17NumberLetterCounts prob4 = new Problem17NumberLetterCounts();
-        System.out.println(prob4.countAllNumbers());
+        System.out.println(prob4.countAllNumbers(1000));
     }
 }

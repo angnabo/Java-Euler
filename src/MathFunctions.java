@@ -40,10 +40,8 @@ public class MathFunctions {
     public static List<Long> getFactors(long num){
         int number = (int) Math.round(Math.floor(Math.sqrt(num)));
         List<Long> factors = new ArrayList<>();
-        double quotient = 0;
         for(long i = 1; i <= number; i++){
-            quotient = (num*1.0)/(i*1.0);//divide the original parameter
-            if(quotient == Math.round(Math.floor(quotient))){ //if divisible
+            if((num*1.0)%(i*1.0) == 0){ //if divisible
                 factors.add(i);
                 factors.add(num/i);
             }

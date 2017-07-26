@@ -15,10 +15,9 @@ public class Problem07OneThousandAndFirstPrime{
      * @return nth prime number
      */
     public long getOneThousandAndFirstPrime(int n) {
-        MathFunctions sieve = new MathFunctions();
         int max = n*100; //max must be bigger than nth prime, most numbers are eliminated
-        List<Integer> primes = sieve.sieveOfEratosthenes(max);
-        return primes.get(n);
+        List<Integer> primes = MathFunctions.sieveOfEratosthenes(max);
+        return primes.get(n-1);
     }
 
     public static void main(String[] args) {

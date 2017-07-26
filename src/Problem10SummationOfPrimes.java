@@ -15,13 +15,12 @@ public class Problem10SummationOfPrimes {
      * @return the sum of prime number
      */
     public long summationOfPrimes(int n) {
-        MathFunctions sieve = new MathFunctions();
-        List<Integer> primes = sieve.sieveOfEratosthenes(n);
+        List<Integer> primes = MathFunctions.sieveOfEratosthenes(n);
         long sumOfPrimes = 0;
         for (int i: primes) {
             sumOfPrimes += i;
         }
-        return sumOfPrimes + 1;//Sieve of Eratosthenes starts at 2, but 1 is also a prime
+        return sumOfPrimes;
     }
 
     public static void main(String[] args) {
