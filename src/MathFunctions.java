@@ -22,7 +22,7 @@ public class MathFunctions {
         while(i < max){
             int j;
             if (sieve[i]) {
-                for (j = (i*2); j < max-1; j += i) { //eliminates numbers with non-prime multiples, skipping prime numbers
+                for (j = (i*2); j < max-1; j += i) { //eliminates numbers with more than two multiples, skipping prime numbers
                     sieve[j] = false;
                 }
                 primes.add(i); //integer i is added if it is a prime number
