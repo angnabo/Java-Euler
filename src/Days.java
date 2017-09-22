@@ -1,35 +1,41 @@
-public class Days {
-    private int dayNum = 0;
+/**
+ * Created by angelica on 20/09/17.
+ */
+public enum Days {
+    MONDAY(1), TUESDAY(2), WEDNESDAY(3), THURSDAY(4), FRIDAY(5), SATURDAY(6), SUNDAY(7);
 
-    Days(int num) {
-        if (num >= 1 && num <= 7) {
-            dayNum = num;
-        }
+    int dayNum = 0;
+
+    Days(int d) {
+        dayNum = d;
     }
 
-    public int getDayNum() {
+    int getDayNum(){
         return dayNum;
     }
 
-    public int next() {
-        switch (dayNum) {
-            case 1:
-                return 2;
-            case 2:
-                return 3;
-            case 3:
-                return 4;
-            case 4:
-                return 5;
-            case 5:
-                return 6;
-            case 6:
-                return 7;
-            case 7:
-                return 1;
+    Days getDay(){
+        return this;
+    }
 
+    public Days next() {
+        switch (this) {
+            case MONDAY:
+                return TUESDAY;
+            case TUESDAY:
+                return WEDNESDAY;
+            case WEDNESDAY:
+                return THURSDAY;
+            case THURSDAY:
+                return FRIDAY;
+            case FRIDAY:
+                return SATURDAY;
+            case SATURDAY:
+                return SUNDAY;
+            case SUNDAY:
+                return MONDAY;
             default:
-                return 0;
+                return null;
         }
     }
 }

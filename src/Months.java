@@ -52,12 +52,13 @@ public enum Months {
             case AUGUST:
                 return SEPTEMBER;
             case SEPTEMBER:
-                return NOVEMBER;
+                return OCTOBER;
             case OCTOBER:
                 return NOVEMBER;
             case NOVEMBER:
                 return DECEMBER;
-
+            case DECEMBER:
+                return JANUARY;
             default:
                 return null;
         }
