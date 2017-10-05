@@ -50,13 +50,11 @@ public class Problem22NameScores {
 
     }
 
-    public BigInteger getNameScores(ArrayList<String> array){
+    public int getNameScores(ArrayList<String> array){
 
-        BigInteger totalScore = new BigInteger("0");
+        int totalScore = 0;
         for (int i = 0; i < array.size(); i++){
-            long score = calcNameScore(array.get(i)) * (i+1);
-            BigInteger b = new BigInteger(Long.toString(score));
-            totalScore = totalScore.add(b);
+            totalScore += calcNameScore(array.get(i)) * (i+1);//add the product of the name score and it's position
         }
         return totalScore;
     }

@@ -1,4 +1,4 @@
-import java.util.List;
+import java.util.ArrayList;
 /**
  * By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
  * What is the 10001st prime number?
@@ -16,7 +16,7 @@ public class Problem07OneThousandAndFirstPrime{
      */
     public long getOneThousandAndFirstPrime(int n) {
         int max = n*100; //max must be bigger than nth prime, most numbers are eliminated
-        List<Integer> primes = MathFunctions.sieveOfEratosthenes(max);
+        ArrayList<Integer> primes = MathFunctions.sieveOfEratosthenes(max);
         return primes.get(n-1);
     }
 

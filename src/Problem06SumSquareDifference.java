@@ -11,19 +11,19 @@
  */
 public class Problem06SumSquareDifference {
 
-    public int sum_square_diff() {
-        int sum_square = 0;
-        int square_sum = 0;
-        for (int i = 1; i <= 100; i++){
-            sum_square += i * i;
-            square_sum += i;
+    public int sumSquareDifference(int num) {
+        int sumOfSquare = 0;
+        int squareSum = 0;
+        for (int i = 1; i <= num; i++){
+            sumOfSquare += i * i;
+            squareSum += i;
         }
-        square_sum = square_sum * square_sum;
-        return square_sum-sum_square;
+        squareSum = squareSum * squareSum;
+        return squareSum-sumOfSquare;
     }
 
     public static void main(String[] args) {
         Problem06SumSquareDifference prob4 = new Problem06SumSquareDifference();
-        System.out.println(prob4.sum_square_diff());
+        System.out.println(prob4.sumSquareDifference(100));
     }
 }

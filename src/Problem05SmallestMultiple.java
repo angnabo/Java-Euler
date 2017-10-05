@@ -7,9 +7,9 @@
  */
 public class Problem05SmallestMultiple {
 
-    public int divide() {
+    public int divide(int n) {
         boolean found = false;
-        int num = 2520;
+        int num = n;
         int remainder = 0;
         while(!found) {
             num += 20;
@@ -19,13 +19,13 @@ public class Problem05SmallestMultiple {
             if(remainder == 0){
                 found = true;
             }
-            remainder = 0;
+            remainder = 0;//assign back to zero
         }
         return num;
     }
 
     public static void main(String[] args) {
         Problem05SmallestMultiple prob5 = new Problem05SmallestMultiple();
-        System.out.println(prob5.divide());
+        System.out.println(prob5.divide(2520));
     }
 }
