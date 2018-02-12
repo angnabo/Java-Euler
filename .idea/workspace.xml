@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7fa5826-c621-42b1-90b5-b264e5f3b8ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Problem23NonAbundantSums.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java-Project-Euler/MathFunctions.class" afterPath="$PROJECT_DIR$/out/production/Java-Project-Euler/MathFunctions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java-Project-Euler/Problem02EvenFibbonacci.class" afterPath="$PROJECT_DIR$/out/production/Java-Project-Euler/Problem02EvenFibbonacci.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java-Project-Euler/Problem03LargestPrimeFactor.class" afterPath="$PROJECT_DIR$/out/production/Java-Project-Euler/Problem03LargestPrimeFactor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java-Project-Euler/Problem05SmallestMultiple.class" afterPath="$PROJECT_DIR$/out/production/Java-Project-Euler/Problem05SmallestMultiple.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java-Project-Euler/Problem06SumSquareDifference.class" afterPath="$PROJECT_DIR$/out/production/Java-Project-Euler/Problem06SumSquareDifference.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java-Project-Euler/Problem07OneThousandAndFirstPrime.class" afterPath="$PROJECT_DIR$/out/production/Java-Project-Euler/Problem07OneThousandAndFirstPrime.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java-Project-Euler/Problem10SummationOfPrimes.class" afterPath="$PROJECT_DIR$/out/production/Java-Project-Euler/Problem10SummationOfPrimes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java-Project-Euler/Problem12HighlyDivisibleTriangularNumber.class" afterPath="$PROJECT_DIR$/out/production/Java-Project-Euler/Problem12HighlyDivisibleTriangularNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java-Project-Euler/Problem21AmicableNumbers.class" afterPath="$PROJECT_DIR$/out/production/Java-Project-Euler/Problem21AmicableNumbers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java-Project-Euler/Problem22NameScores.class" afterPath="$PROJECT_DIR$/out/production/Java-Project-Euler/Problem22NameScores.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java-Project-Euler/Problem23NonAbundantSums.class" afterPath="$PROJECT_DIR$/out/production/Java-Project-Euler/Problem23NonAbundantSums.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MathFunctions.java" afterPath="$PROJECT_DIR$/src/MathFunctions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Problem02EvenFibbonacci.java" afterPath="$PROJECT_DIR$/src/Problem02EvenFibbonacci.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Problem03LargestPrimeFactor.java" afterPath="$PROJECT_DIR$/src/Problem03LargestPrimeFactor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Problem05SmallestMultiple.java" afterPath="$PROJECT_DIR$/src/Problem05SmallestMultiple.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Problem06SumSquareDifference.java" afterPath="$PROJECT_DIR$/src/Problem06SumSquareDifference.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Problem07OneThousandAndFirstPrime.java" afterPath="$PROJECT_DIR$/src/Problem07OneThousandAndFirstPrime.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Problem21AmicableNumbers.java" afterPath="$PROJECT_DIR$/src/Problem21AmicableNumbers.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Problem22NameScores.java" afterPath="$PROJECT_DIR$/src/Problem22NameScores.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Problem23NonAbundantSums.java" afterPath="$PROJECT_DIR$/src/Problem23NonAbundantSums.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,14 +34,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem23NonAbundantSums.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Problem23NonAbundantSums.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Problem23NonAbundantSums.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-220">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1464">
+              <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem13Large_Sum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Problem13Large_Sum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="24" column="61" lean-forward="false" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem01MultiplesOfThreeAndFive.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Problem01MultiplesOfThreeAndFive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem02EvenFibbonacci.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Problem02EvenFibbonacci.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem03LargestPrimeFactor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Problem03LargestPrimeFactor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,32 +94,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem19CountingSundays.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Problem19CountingSundays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Problem22NameScores.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Problem22NameScores.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1120">
-              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="66" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="544">
+              <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem21AmicableNumbers.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Problem21AmicableNumbers.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Problem21AmicableNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="37" column="59" lean-forward="false" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="59" />
-              <folding />
+            <state relative-caret-position="-320">
+              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,6 +136,7 @@
       <find>sum_square</find>
       <find>sumSquare</find>
       <find>square_sum</find>
+      <find>angeli</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -133,7 +152,6 @@
       <list>
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/Problem14LongestCollatzSequence.java" />
-        <option value="$PROJECT_DIR$/src/Problem13Large_Sum.java" />
         <option value="$PROJECT_DIR$/src/Problem15LatticePaths.java" />
         <option value="$PROJECT_DIR$/src/Problem16PowerSums.java" />
         <option value="$PROJECT_DIR$/src/Problem.java" />
@@ -150,15 +168,16 @@
         <option value="$PROJECT_DIR$/src/Problem19CountingSundays.java" />
         <option value="$PROJECT_DIR$/src/Letters.java" />
         <option value="$PROJECT_DIR$/src/p022_names.txt" />
-        <option value="$PROJECT_DIR$/src/Problem22NameScores.java" />
-        <option value="$PROJECT_DIR$/src/Problem21AmicableNumbers.java" />
         <option value="$PROJECT_DIR$/src/Problem07OneThousandAndFirstPrime.java" />
         <option value="$PROJECT_DIR$/src/Problem02EvenFibbonacci.java" />
         <option value="$PROJECT_DIR$/src/Problem05SmallestMultiple.java" />
         <option value="$PROJECT_DIR$/src/Problem06SumSquareDifference.java" />
         <option value="$PROJECT_DIR$/src/MathFunctions.java" />
         <option value="$PROJECT_DIR$/src/Problem03LargestPrimeFactor.java" />
+        <option value="$PROJECT_DIR$/src/Problem13Large_Sum.java" />
         <option value="$PROJECT_DIR$/src/Problem23NonAbundantSums.java" />
+        <option value="$PROJECT_DIR$/src/Problem22NameScores.java" />
+        <option value="$PROJECT_DIR$/src/Problem21AmicableNumbers.java" />
       </list>
     </option>
   </component>
@@ -169,9 +188,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
+    <option name="x" value="-1" />
     <option name="y" value="-11" />
-    <option name="width" value="1865" />
+    <option name="width" value="1922" />
     <option name="height" value="1092" />
   </component>
   <component name="ProjectView">
@@ -189,8 +208,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -233,7 +252,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -775,43 +794,45 @@
       <workItem from="1506601843598" duration="9580000" />
       <workItem from="1506627698805" duration="709000" />
       <workItem from="1506768053951" duration="18000" />
+      <workItem from="1518463902962" duration="1963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78544000" />
+    <option name="totallyTimeSpent" value="80507000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="-11" width="1865" height="1092" extended-state="6" />
+    <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.49597424" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.50402576" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20489296" sideWeight="0.49597424" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20489296" sideWeight="0.49597424" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17337628" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17291667" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2833843" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959743" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.49597424" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31090724" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1039,20 +1060,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/p022_names.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="159" lean-forward="false" selection-start-line="0" selection-start-column="159" selection-end-line="0" selection-end-column="159" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Problem02EvenFibbonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem06SumSquareDifference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -1095,13 +1102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Problem13Large_Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem14LongestCollatzSequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-450">
@@ -1131,40 +1131,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Problem22NameScores.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="66" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Problem21AmicableNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="37" column="59" lean-forward="false" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem05SmallestMultiple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Problem03LargestPrimeFactor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Problem01MultiplesOfThreeAndFive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1186,10 +1156,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem13Large_Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="61" lean-forward="false" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem02EvenFibbonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem03LargestPrimeFactor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem01MultiplesOfThreeAndFive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p022_names.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4210">
+          <caret line="0" column="3437" lean-forward="false" selection-start-line="0" selection-start-column="3431" selection-end-line="0" selection-end-column="3437" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Problem23NonAbundantSums.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="1464">
+          <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem22NameScores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problem21AmicableNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-320">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

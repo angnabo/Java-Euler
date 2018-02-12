@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * A perfect number is a number for which the sum of its proper divisors is exactly equal to the number.
@@ -22,10 +21,13 @@ import java.util.Arrays;
  *
  * Created by angelica on 26/09/17.
  */
-//Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers.
 public class Problem23NonAbundantSums {
 
-    //Get all abundant numbers below a given number
+    /**
+     * Get all abundant numbers below a given number
+     * @param num
+     * @return array of abundant numbers
+     */
     public ArrayList<Integer> getAbundantNumbers(int num){
         ArrayList<Integer> abundantNums = new ArrayList<>();
         for(int i = 2; i < num; i++){
@@ -38,6 +40,11 @@ public class Problem23NonAbundantSums {
         return abundantNums;
     }
 
+    /**
+     * Sum up elements of an integer array
+     * @param array
+     * @return sun
+     */
     public int addArray(ArrayList<Integer> array){
         int sum = 0;
         for (int i : array) {
@@ -46,55 +53,36 @@ public class Problem23NonAbundantSums {
         return sum;
     }
 
-
+    /**
+     * Get the sum of all positive integers which cannot be written as the sum of two abundant numbers.
+     * @param num the number below which to find the integers
+     * @return sum
+     */
     public int getNonAbundantSums(int num){
+        // get abundant numbers before the number
         ArrayList<Integer> abundantNums = getAbundantNumbers(num);
+        // create a boolean array the size of the given number + 1
         boolean[] sumsOfAbundantNums = new boolean[num+1];
+        // add all abundant numbers against each other and populate the array with their sums
         for (int i = 0; i < abundantNums.size()-1; i++) {
             for (int j = 0; j < abundantNums.size()-1; j++) {
                 if (abundantNums.get(i) + abundantNums.get(j) <= num) {
                     sumsOfAbundantNums[abundantNums.get(i) + abundantNums.get(j)] = true;
-                } else {
-                    break;
                 }
             }
         }
-        int ttl = 0;
+        // sum up those index values where the boolean is false (the number us not a sum of two abundant numbers)
+        int sum = 0;
         for (int i = 1; i <= num; i++) {
             if (!sumsOfAbundantNums[i]) {
-                ttl += i;
+                sum += i;
             }
         }
-        return ttl;
-
-        //The below was my non-optimized, very time consuming implementation
-
-//        ArrayList<Integer> nonSums = new ArrayList<>();
-//        int i = 1;
-//        while(i <= num) {
-//            boolean isSum = true;
-//            for (int j = 0; j < abundantNums.size(); j ++){
-//                if (j > i){//no need to look through numbers bigger than i
-//                    break;
-//                }
-//                if (abundantNums.contains(i-abundantNums.get(j))){//look for a sum pair
-//                    isSum = true;
-//                    break; //break out if at least one sum pair found
-//                } else {
-//                    isSum = false;
-//                }
-//            }
-//            if (!isSum) {
-//                nonSums.add(i);
-//            }
-//            i++;
-//        }
-//        return nonSums;
+        return sum;
     }
 
     public static void main(String[] args) {
         Problem23NonAbundantSums prob23 = new Problem23NonAbundantSums();
-        //ArrayList<Integer> a = prob23.getNonAbundantSums(28123);
         System.out.print(prob23.getNonAbundantSums(28123));
     }
 }

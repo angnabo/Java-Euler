@@ -1,6 +1,5 @@
 import java.io.File;
 import java.io.IOException;
-import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
@@ -24,6 +23,12 @@ public class Problem22NameScores {
 
     Letters letter;
 
+    /**
+     * A method to read the names from file and return them as a String array.
+     * @param filename
+     * @return string array of the names
+     * @throws IOException
+     */
     public ArrayList<String> readNames(String filename) throws IOException {
 
         File inFile = new File(filename);
@@ -39,6 +44,11 @@ public class Problem22NameScores {
         return array;
     }
 
+    /**
+     * Calculate a score for a given name.
+     * @param n
+     * @return
+     */
     public int calcNameScore(String n){
         int score = 0 ;
         char[] name = n.toUpperCase().toCharArray();
@@ -50,6 +60,11 @@ public class Problem22NameScores {
 
     }
 
+    /**
+     * Get the score of all names in the file.
+     * @param array
+     * @return
+     */
     public int getNameScores(ArrayList<String> array){
 
         int totalScore = 0;
@@ -62,7 +77,6 @@ public class Problem22NameScores {
     public static void main(String[] args) throws IOException {
         Problem22NameScores prob22 = new Problem22NameScores();
         ArrayList<String> a = prob22.readNames("src/p022_names.txt");
-        //System.out.print(a.toString());
         System.out.print(prob22.getNameScores(a));
     }
 
